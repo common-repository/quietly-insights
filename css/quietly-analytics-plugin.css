@@ -1,0 +1,123 @@
+.toplevel_page_quietly-analytics #wpcontent {
+    padding-left: 0;
+}
+
+.quietly-analytics__wrapper {}
+
+.quietly-analytics__header {
+    height: 100px;
+    background-color: #696BC0;
+}
+
+.quietly-analytics__header--image {
+    width: 240px;
+    padding: 22px 20px 0;
+}
+
+.quietly-analytics__inner {
+    padding: 20px;
+}
+
+.quietly-analytics__module {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #696BC0;
+    border-left: 6px solid #696BC0;
+    margin-bottom: 20px;
+}
+
+.quietly-analytics__module.-no-border {
+    padding: 20px;
+    background-color: white;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.quietly-analytics__module--header {
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-size: 20px;
+}
+
+.quietly-analytics__module--content {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.quietly-analytics__module--input {
+    border: 1px dashed #334358 !important;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 200px;
+    box-sizing: border-box;
+    height: 40px;
+}
+
+.quietly-analytics__module--button {
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 10px;
+    padding: 8px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #696BC0;
+    color: white;
+    height: 40px;
+    cursor: pointer;
+}
+
+.quietly-analytics__module--spinner {
+    display: none;
+    height: 40px;
+    width: 80px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    vertical-align: top;
+    background: transparent url('../images/ajax-loader.gif') 50% 50% no-repeat;
+}
+
+.quietly-analytics__module--result {
+    position: relative;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.quietly-analytics__module--result img {
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.quietly-analytics__module--message {
+    display: none;
+    padding-bottom: 20px;
+}
+
+.quietly-analytics__module--button:hover {
+    opacity: .7;
+}
+
+.quietly-analytics__module--input:focus {
+    border: 1px solid #696BC0 !important;
+}
+
+.quietly-analytics__module--input:disabled {
+    background-color: #dddddd;
+}
+
+.quietly-analytics__module--form {
+    padding: 14px 0;
+}
+
+.quietly-analytics__module--content.-padding-top {
+    padding-top: 20px;
+}

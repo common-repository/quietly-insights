@@ -1,0 +1,36 @@
+/**
+ * Quietly Plugin Admin Menu
+ */
+#toplevel_page_quietly-analytics .wp-menu-image {
+    background-image: url("../images/logo.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.quietly-analytics__installed.updated {
+    background-color: white;
+    color: black;
+    border: 2px solid #696BC0;
+    border-radius: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.quietly-analytics__installed.updated p {
+    font-size: 15px;
+}
+
+.quietly-analytics__installed.updated .button-admin {
+    display: inline-block;
+    color: white;
+    background-color: #696BC0;
+    text-decoration: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    padding: 8px 20px;
+}
+
+.quietly-analytics__installed.updated .button-admin:hover {
+    opacity: .7;
+}
